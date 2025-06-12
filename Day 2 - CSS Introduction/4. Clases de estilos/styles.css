@@ -1,0 +1,13 @@
+p{
+    text-align: center;
+}
+.normal{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.destacado{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: burlywood;
+    padding: 25px;
+}

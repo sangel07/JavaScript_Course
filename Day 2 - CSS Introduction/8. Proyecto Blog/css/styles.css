@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*General*/
+body {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    background-image: url('../images/background.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.display-flex{
+    display: flex;
+}
+p{
+    text-align: justify;
+}
+.container{
+    padding-top: 60px;
+    padding: 3em 15em;
+}
+/*encabezado*/
+/* Estilo general del encabezado */
+#encabezado {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparente */
+    backdrop-filter: blur(10px); /* efecto de desenfoque moderno */
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+/* Quitar estilos por defecto de la lista */
+#encabezado ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Estilo de los enlaces */
+#encabezado a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding: 5px;
+}
+/* Efecto al pasar el mouse */
+#encabezado a:hover {
+    color: #00bcd4; /* Azul claro */
+    border-bottom: 2px solid #00bcd4;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-----Seccion presentación*/
+#presentacion a:hover {
+    color: #34a4b3; /* Azul claro */
+    border-bottom: 2px solid #00bcd4;
+}
+#presentacion img {
+    width: 100%;
+    max-width: 20em;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+
+/*Experiencia*/
+#experiencia{
+    margin-top: 10%;
+}
+#experiencia h1{
+    display: flex;
+    flex-direction:row-reverse;
+}

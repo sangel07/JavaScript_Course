@@ -1,0 +1,40 @@
+/*  Ver mas de selectores en:
+    https://developer.mozilla.org/es/docs/Web/CSS/CSS_selectors */
+
+body{
+    font-size: 21px;
+    background-color: bisque;
+}
+.principal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+#informacion{
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: green;
+}
+/*Otra forma de seleccionar los links*/
+a[href]{
+    background-color: goldenrod;
+}
+a[href]:hover{
+    font-size: 110%;
+}
+/*Todos los links que contengan .edu*/
+a[href*=".edu"]:hover{
+    background-color: green;
+    color: red;
+}
+ul li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+/*El primer parrafo se pinta*/
+.principal::first-line{
+    background-color: cadetblue;
+}

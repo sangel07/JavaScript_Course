@@ -1,0 +1,31 @@
+/*https://developer.mozilla.org/es/docs/Learn_web_development/Core/Styling_basics/Combinators*/
+
+/*combinador desendiente*/
+div p{
+    color: green;
+}
+
+/*Combinador de hijos directos*/
+ol>li{
+    color: rgb(0, 13, 190);
+}
+
+/*Combinador de hermanos adyacentes*/
+h2 + h3{
+    background-color: burlywood;
+}
+
+/*Combinador despues del hermano, todos los h3 despues de h2*/
+h2 ~ h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Seleccionar por atributo*/
+p[align ="left"]{
+    background-color: bisque;
+}
+
+/*Seleccionar por atributo, solo los que estan dentro de un div*/
+div p[align ="left"]:hover{
+    background-color: rgb(146, 218, 137);
+}
