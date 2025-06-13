@@ -1,0 +1,12 @@
+//https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout
+let elementoTiempo = document.getElementById("tiempo"); //Obtiene el elemento con el id tiempo
+let elementoAdvice = document.getElementById("advice"); //Obtiene el elemento con el id advice
+
+function comenzarTiempo(){
+    setTimeout(tiempoCumplido, 1000 * elementoTiempo.value); //Funcion para aplicar un delay
+}
+
+function tiempoCumplido(){
+    elementoAdvice.textContent = "Encendido"; //Cambia el texto de h1
+    elementoAdvice.style.color ="green"; //Cambia color de texto
+}

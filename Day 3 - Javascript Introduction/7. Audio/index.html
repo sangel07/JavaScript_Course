@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+    <p>Ingresa el tiempo que deseas</p>
+    <input type="number" id="tiempo">
+    <button onclick="comenzarTiempo()">Alarma</button>
+    <h1 style="color: red;" id="advice">Apagado</h1>
+    
+    <audio id = "alarm"> <!--si se le agrega el atributo "controls" se muestran los controles en pantalla-->
+        <source src="alarma (1).mp3" type="audio/mp3">
+        Sonido no habilitado
+    </audio>
+
+    <script src="DOM.js"></script>
+</body>
+</html>
