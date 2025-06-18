@@ -1,0 +1,61 @@
+/* Estilo general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #fceabb, #f8b500);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: #fffef0;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #f8b500;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+/* Botones */
+button {
+    background-color: #f8b500;
+    color: white;
+    border: none;
+    margin: 8px;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffca28;
+    transform: scale(1.05);
+}
+
+/* Resultado */
+#eleccion {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    color: #f57c00;
+    font-weight: bold;
+}

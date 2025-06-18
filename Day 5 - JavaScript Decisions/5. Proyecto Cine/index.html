@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CineRiano</title>
+</head>
+<body>
+    <main>
+        <section>
+            <p>¡Bienvenido a CineRiano! 🎬<br>
+                Tu edad y tu género favorito nos ayudarán a recomendarte la película perfecta.<br>
+                ¡Prepárate para disfrutar la función ideal para ti! 🍿✨<br></p>
+            <p>--Menu--</p>
+            <p>Ingresa tu edad:</p>
+            <input id="edad" type="number" max="99" min="1">
+            <div>
+                <button onclick="recomendar('drama')">Drama</button>
+                <button onclick="recomendar('comedia')">Comedia</button>
+                <button onclick="recomendar('animacion')">Animacion</button>
+                <button onclick="recomendar('accion')">Accion</button>
+            </div>
+            <h2 id="eleccion"></h2>
+        </section>
+    </main>
+    
+    <script src="DOM.js"></script>
+</body>
+</html>
