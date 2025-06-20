@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calificaciones</title>
+</head>
+
+<body>
+    
+    <main>
+        <section>
+            <h1>Universidad Politécnica</h1>
+            <p>Bienvenido al Sistema de Consulta de Calificaciones de la <span>Universidad Politécnica</span>. Este sistema está diseñado
+                para ofrecer a los estudiantes una manera rápida, segura y eficiente de acceder a sus calificaciones académicas
+                desde cualquier lugar.
+            </p>
+            <button onclick="mostrarNotas()">Mostrar notas</button>
+            <button onclick="promedio()">Promedio</button>
+            <button onclick="notaMasAlta()">Nota más alta</button>
+            <button onclick="aplazos()">¿Aplazos?</button>
+            <ul id="listaTabla"></ul>
+            <h1 id="reprobado"></h1>
+            <button onclick="reseteo()">volver a inicio</button>
+        </section>
+    </main>
+    
+    <script src="DOM.js"></script>
+</body>
+
+</html>
