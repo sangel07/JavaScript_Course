@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registro de empleados</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form id="formEmpleado">
+                <h1>Registro de empleados</h1>
+                <div>
+                    <h3>Matricula</h3>
+                    <input type="text" id="matricula">
+                </div>
+                <div>
+                    <h3>Nombre</h3>
+                    <input type="text" id="nombre">
+                </div>
+                <div>
+                    <h3>Apellido</h3>
+                    <input type="text" id="apellido">
+                </div>
+                <div>
+                    <h3>Fecha de nacimiento</h3>
+                    <input type="date" id="fechaNacimiento">
+                </div>
+                <div>
+                    <h3>Cargo</h3>
+                    <input type="text" id="cargo">
+                </div>
+                <div id = "botones">
+                    <button type="button" onclick = "agregarEmpleados()">Cargar empleados</button> <!-- Se escribe el type button para evitar reseteo al enviar-->
+                    <button type="button" onclick = "mostrarEmpleado()">Mostrar empleados</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="DOM.js"></script>
+</body>
+</html>
