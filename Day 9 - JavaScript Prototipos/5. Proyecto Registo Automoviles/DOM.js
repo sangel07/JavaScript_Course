@@ -32,9 +32,9 @@ Automovil.prototype.encender = function(){
 }
 
 function mostrarRegistro(){
-    let elementoLista = document.getElementById("listaAutomoviles");
 
-    for(automovil of arrayAutomoviles){
+    let elementoLista = document.getElementById("listaAutomoviles");
+    for(let automovil of arrayAutomoviles){
         let item = document.createElement("li");
         item.innerText = automovil.verAuto();
         elementoLista.appendChild(item);
