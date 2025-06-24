@@ -1,0 +1,89 @@
+    /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo general elegante */
+body {
+    background: linear-gradient(to right, #1e1e1e, #2c2c2c);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Encabezado empresarial */
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ff0000;
+}
+
+
+/* Contenido principal */
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+section {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+/* Botón con estilo industrial */
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}
+
+/* Lista de autos */
+#listaAutomoviles {
+    list-style: none;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#listaAutomoviles li {
+    background-color: #2a2a2a;
+    padding: 10px;
+    margin: 8px 0;
+    border-left: 5px solid #ff0000;
+    border-radius: 6px;
+}
+header h2 {
+    font-size: 2rem;
+    color: #ff0000;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
