@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cuenta de Cliente - Banco Mexicano de la Nación</title>
+</head>
+<body onload="mostrarResumen()">
+    <header>
+        <h1>Banco Mexicano de la Nación</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <p>
+                Bienvenido al sistema de gestión bancaria empresarial. Accede de forma segura a la información de nuestros clientes y administra sus datos con eficiencia y confidencialidad.
+            </p>
+        </section>
+
+        <section id="informacionGeneral" class="info-section">
+            <div>
+                <h2>Banco:</h2>
+                <p id="banco"></p>
+            </div>
+            <div>
+                <h2>Sucursal:</h2>
+                <p id="sucursal"></p>
+            </div>
+            <div>
+                <h2>Titular:</h2>
+                <p id="titular"></p>
+            </div>
+            <div>
+                <h2>Número de Cuenta:</h2>
+                <p id="numeroCuenta"></p>
+            </div>
+        </section>
+
+        <section id="balance" class="info-section">
+            <div>
+                <img src="images/usa_us_america_flag_united_states_icon.png" alt="USD" />
+                <p id="dollar"></p>
+            </div>
+            <div>
+                <img src="images/european_flag_icon.png" alt="EUR" />
+                <p id="euro"></p>
+            </div>
+        </section>
+
+        <section id="informacionCuenta" class="info-section">
+            <div>
+                <h2>Cuenta:</h2>
+                <p id="cuenta"></p>
+            </div>
+            <div>
+                <h2>Fecha de Apertura:</h2>
+                <p id="fechaApertura"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2025 Banco Mexicano de la Nación. Todos los derechos reservados.</small>
+    </footer>
+
+    <script src="DOM.js"></script>
+</body>
+</html>

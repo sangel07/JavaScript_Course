@@ -1,0 +1,13 @@
+{
+    "nombre": "Pedro Toledo",
+    "edad": 35,
+    "esEstudiante": false,
+    "direccion":{
+        "calle": "Av. Aguascalientes NTE",
+        "ciudad": "Aguascalientes"
+    },
+    "telefonos":[
+        "4491009658",
+        "4498523645"
+    ]
+}
